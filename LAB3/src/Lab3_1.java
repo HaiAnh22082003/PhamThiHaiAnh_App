@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 class Sach { 
     private String Ma,Ten,Tacgia;
     private int Trang,Tap,Gia;
@@ -20,6 +19,7 @@ class Sach {
     Gia=scanner.nextInt();
     System.out.print("Nhap loai: ");
     Loai=scanner.nextLine();
+    scanner.nextLine();
     System.out.print("Nhap nha xuat ban: ");
     NXB=scanner.nextLine();
     }

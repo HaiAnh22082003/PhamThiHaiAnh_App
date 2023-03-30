@@ -70,7 +70,6 @@ class Tamgiac extends Diem{
  public class Lab3_2{
     public static void main(String[] args) {
         int luachon;
-        boolean chon;
         Scanner scanner=new Scanner(System.in);
         System.out.print("Moi ban nhap lua chon: ");
         luachon=scanner.nextInt();
